@@ -159,6 +159,27 @@ button:hover {
   display: inline-block;
   margin-right: 8px;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+  list-style: none;
+  position: relative;
+}
+.participants-list li span {
+  margin-right: 8px;
+}
+.delete-btn {
+  background-color: transparent;
+  color: #c62828;
+  border: none;
+  padding: 0 4px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  vertical-align: middle;
+  min-width: auto;
+}
+.delete-btn:hover {
+  background-color: rgba(198, 40, 40, 0.1);
+  color: #b71c1c;
 }
 
 footer {
